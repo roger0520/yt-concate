@@ -5,7 +5,7 @@ from yt_concate.pipeline.steps.step import Step
 from yt_concate.settings import API_KEY
 
 
-class GetVideoList(Step):
+class GetVideoList(Step): #拿到影片清單
     def process(self, data, inputs, utils):
         channel_id = inputs['channel_id']
 
